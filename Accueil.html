@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="Stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body  id="top">
+  <header>
+    <div class="Circle">
+    </div>
+    <h1><span>D_</span>f<span> o</span>li<span>o</span></h1>
+      <nav>
+            <ul>
+                <li><a href=#Accueil>Accueil</a></li>
+                <li><a href=#About>A propos</a></li>
+                <li><a href=#Competence>Compétence</a></li>
+                <li><a href=#Goal>Ob&Projet</a></li>
+                <li><a href=#Contact>Contact</a></li>
+            </ul>
+      </nav>
+       
+  </header>
+    <main>
+     <section id="Accueil">
+        <div class="description">
+            <h5>Développeur web😉</h3><br>
+            <h2>Bienvenue je suis <br>Anonymous</h2>
+          <p>Jeune Togolais passionné par les technologies et en formation en dévéloppement web et mobile sur le projet de l'OIF(Organisation Internationnale de la Francophonie) à CUBE </p>
+          <a href="CV_professionnel[AVE].pdf" target="_blank">
+          <button id="bloc1" >Mon CV</button> 
+          </a>
+          <a href="#Competence">
+          <button class="bloc2">Mes Competence</button>
+          </a>
+        </div>
+
+        <div class="img-con">
+            <img src="Nika.jpg">
+        </div>
+     </section>
+     
+     <section id="About">
+       <div class="about">
+         <h1> A Propos de moi</h1>
+         <p style="color: blanchedalmond;">Développeur web passionné, je suis animé par l’envie de concevoir des solutions numériques efficaces, accessibles et esthétiques. Curieux et autodidacte, j’ai choisi de me former activement aux langages du web (HTML, CSS, JavaScript) pour maîtriser la création de sites et d’applications interactives.
+            
+           Ma rigueur, mon sens du détail et ma volonté constante de progresser me poussent à explorer les bonnes pratiques du développement, comme l’éco-conception ou l’optimisation des performances. Aujourd’hui, je suis à la recherche de projets stimulants dans lesquels je pourrai mettre mes compétences au service d’une vision numérique utile et durable.
+
+           Je crois en un web inclusif, responsable et innovant — et je suis déterminé à y contribuer.
+         </p>
+         <div id="Invisible">
+           <button class="boutn-about">06+ <br>Projets réalisés</button>
+           <button class="boutn-about">12+ <br>mois d'expérience</button>
+           <button class="boutn-about">08+ <br>clients satisafaits</button>
+         </div>
+        </div>
+      </section>
+      <section id="Competence" class="Competence">
+        <h1>Mes Compétence</h1>
+                <div class="skills-section">
+              <div class="skill-card">
+            <div class="card-inner">
+          <div class="card-front">
+        <img src="Images/R(4).png">
+        </div>
+       <div class="card-back">
+        <p>Niveau : Avancé</p>
+        <p>Utilisé pour structurer mes pages web.</p>
+       </div>
+         </div>
+         </div>
+
+        <div class="skill-card">
+          <div class="card-inner">
+        <div class="card-front">
+       <img src="Images/css-logo.png">
+       </div>
+      <div class="card-back">
+        <p>Niveau : Intermédiaire</p>
+        <p>Maîtrise du responsive et de la stylisation.</p>
+        </div>
+         </div>
+         </div>
+              <div class="skill-card">
+            <div class="card-inner">
+          <div class="card-front">
+       <img src="Images/png-javascript-badge-picture-8.png">
+      </div>
+         <div class="card-back">
+           <p>Niveau : Intermédiaire</p>
+           <p>Maîtrise des interaction et des animations.</p>
+        </div>
+       </div>
+      </div>
+     </div>
+    </section>
+
+
+       <div id="Goal" class="goals">
+      <h2>🎯 Objectifs et projets à venir</h2>
+     <p id="intro">En tant qu'apprenant passionné par le développement web, je suis actuellement en pleine phase d’apprentissage des technologies fondamentales : <strong>HTML, CSS et JavaScript</strong>.</p>
+     <ol id="projectList">
+      <li>Réaliser un <strong>portfolio dynamique</strong> en JavaScript</li>
+      <li>Créer une <strong>page de formulaire interactive</strong></li>
+      <li>Développer une <strong>petite application web</strong> (to-do list, convertisseur...)</li>
+      <li>Approfondir mes connaissances en <strong>responsive design</strong></li>
+    </ol>
+    <p id="note">Cette section sera enrichie au fur et à mesure que mes projets prennent vie.</p>
+    <button onclick="highlight()">Mettre en valeur</button>
+      </div>
+
+  <script src="script.js"></script>
+           
+      
+       </section>
+
+
+      <section id="Contact" class="Contact">
+        <div class="TextContact">
+          <h1> Contactez-nous</h1>
+          <p>Vous avez une question ou un projet en tête ? Je serais ravi d'en
+              discuter avec vous. Échangeons nos idées et créons ensemble
+             quelque chose d'exceptionnel.
+          </p>
+          <ul class="about-items">
+            <li>📍Avepozo washington</li>
+            <li>☎ +228 93993893</li>
+            <li><a href="mailto:Alfredakonon7@gmail.com">✉ Alfredakonon7@gmail.com</a></li>
+          </ul>
+        </div>
+        <div class="Formulaire">
+           <form id="contactForm">
+             <input type="text" id="nom" placeholder="Votre nom" required>
+             <input type="email" id="email" placeholder="Votre email" required>
+             <input type="number" id="numero" placeholder="Votre numéro" required>
+             <textarea id="message" placeholder="Votre message" required></textarea>
+             <button class="btn" type="submit">Envoyer</button>
+           </form>
+           <p class="confirmation" id="confirmationMsg">Message envoyé avec succès !</p>
+        </div>
+        
+      </section>
+    </main>
+    <footer>
+      <p class="copyright">© 2025 Anonymous - Tous droits réservés</p>
+      <a href="#top" class="back-to-top">↑ Retour en haut</a>
+
+      <ul>
+        <li></li>
+        <li></li>
+        <li>Mes reseaux sociaux
+          <div class="social-icons">
+            <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://whatsapp.com" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://snapchat.com" target="_blank"><i class="fab fa-snapchat"></i></a>
+          </div>
+        </li>
+      </ul>
+    </footer>
+</body>
+
+</html>
